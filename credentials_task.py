@@ -15,7 +15,7 @@ Description:
 	assume that you will also be writing that method,
 	so you can choose the storage format within the
 	database. We have prepared a SQLite database
-	named “db.sqlite” containing a table “users” and five
+	named “database.sqlite3” containing a table “users” and five
 	text columns, “column1”, “column2”, “column3”,
 	“column4”, “column5”. You can use any or all
 	of these columns as needed to store users’ login
@@ -25,7 +25,7 @@ When is the problem solved?
 	The credentials are stored in the database file.
 """
 
-def store_credentials():
+def store_credentials(username, password, database="./database.sqlite3"):
     pass
 
 store_credentials("email@example.com", "P45sW0rD")
