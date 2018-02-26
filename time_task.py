@@ -1,7 +1,7 @@
 """
 Time Tool
 Description:
-    Need to display an appropriate "time since" message for an archival tool
+    Need to display an appropriate "time since" message
     You are given a creation date for a record in your archive
     You should analyse how much time has passed since then and another time (i.e. Now)
     The "then" time is given as a string in the form
