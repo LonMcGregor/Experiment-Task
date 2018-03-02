@@ -18,4 +18,5 @@ When is the problem solved?
 def shorten_url():
     pass
 
-shorten_url("https://hw.ac.uk")
+if __name__ == "__main__":
+    shorten_url("https://hw.ac.uk")
