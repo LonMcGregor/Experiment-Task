@@ -21,4 +21,5 @@ When is the problem solved?
 def process_file():
     pass
 
-process_file("my_script.old")
+if __name__ == "__main__":
+    process_file("my_script.old")
