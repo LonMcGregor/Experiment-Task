@@ -28,4 +28,5 @@ When is the problem solved?
 def store_credentials(username, password, database="./database.sqlite3"):
     pass
 
-store_credentials("email@example.com", "P45sW0rD")
+if __name__ == "__main__":
+    store_credentials("email@example.com", "P45sW0rD")
