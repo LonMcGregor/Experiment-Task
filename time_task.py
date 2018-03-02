@@ -26,7 +26,10 @@ When is the problem solved?
     You write a method that returns a string that tells you how long
 	it has been since something happened in terms of days, weeks or years.
 """
+import time
+
 def time_since(then, now):
     return "2 days"
 
-print(time_since("feb 26 2001", time.time()))
+if __name__ == "__main__":
+    print(time_since("feb 26 2001", time.time()))
