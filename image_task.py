@@ -12,4 +12,5 @@ When is the problem solved:
 def analyse_image():
     pass
 
-analyse_image("example-image.png")
+if __name__ == "__main__":
+    analyse_image("example-image.png")
