@@ -12,4 +12,5 @@ When is the problem solved?
 def encrypt_string():
     pass
 
-encrypt_string("A sample input string")
+if __name__ == "__main__":
+    encrypt_string("A sample input string")
