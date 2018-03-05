@@ -18,8 +18,8 @@ When is the problem solved?
 	A corrected file can be found at the location of the original, with ".new" at the end of the filename in place of ".old"
 """
 
-def process_file():
+def fix_file():
     pass
 
 if __name__ == "__main__":
-    process_file("my_script.old")
+    fix_file("my_script.old")
