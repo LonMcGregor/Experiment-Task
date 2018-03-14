@@ -13,4 +13,4 @@ def analyse_image():
     pass
 
 if __name__ == "__main__":
-    analyse_image("example-image.png")
+    analyse_image("example_image.png")
