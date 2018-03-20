@@ -15,7 +15,7 @@ When is the problem solved?
 	output of the method to the console.
 """
 
-def shorten_url():
+def shorten_url(long_url):
     pass
 
 if __name__ == "__main__":
