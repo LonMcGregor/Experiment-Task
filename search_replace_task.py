@@ -18,7 +18,7 @@ When is the problem solved?
 	A corrected file can be found at the location of the original, with ".new" at the end of the filename in place of ".old"
 """
 
-def fix_file():
+def fix_file(filename):
     pass
 
 if __name__ == "__main__":
