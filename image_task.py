@@ -9,7 +9,7 @@ When is the problem solved:
 	the average colour. RGB values are in the form 0<=x:integer<=255.
 """
 
-def analyse_image():
+def analyse_image(filename):
     pass
 
 if __name__ == "__main__":
