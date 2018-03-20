@@ -9,7 +9,7 @@ When is the problem solved?
 	string in the console.
 """
 
-def encrypt_string():
+def encrypt_string(input_string):
     pass
 
 if __name__ == "__main__":
